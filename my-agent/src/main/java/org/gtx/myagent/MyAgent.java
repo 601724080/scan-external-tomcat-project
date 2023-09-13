@@ -9,15 +9,7 @@ import java.lang.instrument.Instrumentation;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Copyright (C) 2020-2022 杭州优诗科技有限公司
- * This file is part of UnitSpirit.
- * TODO
- *
- * @author gtx
- * @version 1.0.0
- * @Date 2023/9/13 10:03
- **/
+
 public class MyAgent {
     public static void premain(String agentArgs, Instrumentation instrumentation) throws Exception {
         System.err.println("========= enter my-agent ===============");
