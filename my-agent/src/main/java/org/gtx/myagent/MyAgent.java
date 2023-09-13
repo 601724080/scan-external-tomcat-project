@@ -27,7 +27,7 @@ public class MyAgent {
         ResourceList resources = scanResult.getAllResources().classFilesOnly();
         List<Resource> myapp = resources.stream()
                 // find my app class
-                // expected 3 class found
+                // expected 4 class found
                 .filter(resource -> resource.getPath().contains("myapp"))
                 .collect(Collectors.toList());
 
