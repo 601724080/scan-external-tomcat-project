@@ -9,5 +9,5 @@
 ![img.png](./master-result.png)
 
 ## but when i user external-tomcat with my-agent to run app, no app's class found: 
-![img.png](external-tomcat-RunWithMyAgent.png)
-![img.png](external-tomcat-result.png)
+![img.png](./external-tomcat-RunWithMyAgent.png)
+![img.png](./external-tomcat-result.png)
